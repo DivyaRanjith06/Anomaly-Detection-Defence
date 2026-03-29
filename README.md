@@ -28,12 +28,6 @@ anomaly-detection-defence/
 ├── anomaly_detection_defence_2.ipynb   # Main notebook (all models + analysis)
 ├── README.md                           # Project documentation
 ├── .gitignore                          # Files to exclude from version control
-│
-├── data/                               # Dataset folder (not tracked by git)
-│   ├── UNSW_NB15_training-set.csv      # Download separately (see below)
-│   └── UNSW_NB15_testing-set.csv
-│
-└── outputs/                            # Generated plots and results (optional)
 ```
 
 ---
@@ -47,31 +41,6 @@ anomaly-detection-defence/
 Files needed:
 - `UNSW_NB15_training-set.csv`
 - `UNSW_NB15_testing-set.csv`
-
-Place them in the `data/` folder before running the notebook.
-
----
-
-## ⚙️ Setup & Installation
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/anomaly-detection-defence.git
-cd anomaly-detection-defence
-```
-
-### 2. Install dependencies
-```bash
-pip install numpy pandas scikit-learn matplotlib seaborn tensorflow
-```
-
-### 3. Add the dataset
-Place the UNSW-NB15 CSV files inside the `data/` folder.
-
-### 4. Run the notebook
-```bash
-jupyter notebook anomaly_detection_defence_2.ipynb
-```
 
 ---
 
@@ -118,12 +87,3 @@ Raw CSVs → Merge → Drop irrelevant cols → Handle missing values
 
 ---
 
-## 📄 License
-
-This project is for educational and research purposes.
-
----
-
-## 🙏 Acknowledgements
-
-- Dataset: [UNSW-NB15](https://research.unsw.edu.au/projects/unsw-nb15-dataset) by the Cyber Range Lab, UNSW Canberra
